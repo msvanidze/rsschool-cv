@@ -5,9 +5,11 @@ body {
 }
 .horizontal-centered-block {
     margin: auto;
-    width: 80%;
+    width: 50%;
     border: 1px solid dimgrey;
     padding: 3%;
+    margin-top: 48px;
+    overflow: hidden;
 }
 .divider {
     border: 1px solid dimgrey;
@@ -25,19 +27,124 @@ header {
 .about p {
     text-align: justify;
 }
-.external-ul {
-    list-style: none;
-}
-.inner-ul {
-    list-style: square;
-}
 .discord {
     color: rgb(88, 101, 242);
 }
 .country {
     text-decoration: none;
-
 }
 .country:visited {
     color: white;
-  }
+}
+.remove-decoration {
+    text-decoration: none;
+    color: white;
+}
+remove-decoration:visited {
+    color: white;
+}
+.inner-code-example{
+    width: 50%;
+}
+.tag-color {
+    color: rgb(220, 20, 60);
+}
+.inner-code-example {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.code-result {
+    border-radius: 5%;
+}
+.unite-two-topics {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.more-space {
+    padding-bottom: 3%;
+}
+.web-dev {
+    height: 150px;
+}
+.web-dev-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-size {
+    font-size: 4vw;
+}
+.sign-size span {
+    color: rgb(220, 20, 60);
+}
+footer {
+    background-color: dimgray;
+    margin: auto;
+    width: 56%;
+    overflow: hidden;
+    border: 1px solid dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.github-f {
+    width: 33%;
+    height: 60px;
+}
+.date-f {
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    width: 32%;
+    height: 60px;
+    font-size: 24px;
+    color: black;
+}
+.github-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rs-f {
+    padding-right: 1%;
+    width: 32%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.rs-f-inner {
+    width: 50%;
+    float: right;
+}
+.nav-list {
+    background-color: dimgray;
+    width: 55.5%;
+    height: 46px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid dimgrey;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav-list li a {
+    display: block;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-list a:hover {
+    background-color: dimgrey;
+}
