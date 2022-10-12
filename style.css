@@ -1,13 +1,43 @@
 body {
+    font-family: sans-serif, serif;
     background-color: black;
     color: white;
 }
+.horizontal-centered-block {
+    margin: auto;
+    width: 80%;
+    border: 1px solid dimgrey;
+    padding: 3%;
+}
+.divider {
+    border: 1px solid dimgrey;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 .photo {
     height: 150px;
     border-radius: 100%;
 }
+.about p {
+    text-align: justify;
+}
+.external-ul {
+    list-style: none;
+}
+.inner-ul {
+    list-style: square;
+}
+.discord {
+    color: rgb(88, 101, 242);
+}
+.country {
+    text-decoration: none;
+
+}
+.country:visited {
+    color: white;
+  }
