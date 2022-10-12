@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo {
+    height: 150px;
+    border-radius: 100%;
+}
