@@ -109,6 +109,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.git-image {
+    height: 50px;
+}
 .rs-f {
     padding-right: 1%;
     width: 32%;
